@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <title>SVG Effects Table</title>
+ <style>
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  td {
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+  }
+  /* 效果类 */
+  .mirror {
+    transform: scaleX(-1);
+  }
+  .rotate180 {
+    transform: rotate(180deg);
+  }
+  .squeeze {
+    transform: scaleY(0.5);
+  }
+  .grayscale svg {
+    filter: grayscale(100%);
+  }
+  td svg {
+    width: 100px; /* 调整 SVG 显示大小 */
+    height: auto;
+  }
+  .grayscale img {
+    filter: grayscale(100%);
+  }
+ </style>
+</head>
+<body>
+
+<table>
+  <tr>
+    <td class="original">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="100" height="100">
+    <path d="M32 0 L64 64 H0 Z" fill="red"/>
+    </td>
+      
+    <td class="mirror">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="100" height="100">
+    <path d="M32 0 L64 64 H0 Z" fill="red"/>
+    </td>
+    <td class="rotate180">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="100" height="100">
+    <path d="M32 0 L64 64 H0 Z" fill="red"/>
+    </td>
+    <td class="squeeze">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="100" height="100">
+    <path d="M32 0 L64 64 H0 Z" fill="red"/>
+    </td>
+    <td class="grayscale">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="100" height="100">
+    <path d="M32 0 L64 64 H0 Z" fill="red"/>
+    </td>
+  </tr>
+
+
+  <tr>
+    <td class="original">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+        <circle cx="32" cy="32" r="25" fill="skyblue"/>
+      </svg>
+    </td>
+    <td class="mirror">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+        <circle cx="32" cy="32" r="25" fill="skyblue"/>
+      </svg>
+    </td>
+    <td class="rotate180">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+        <circle cx="32" cy="32" r="25" fill="skyblue"/>
+      </svg>
+    </td>
+    <td class="squeeze">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+        <circle cx="32" cy="32" r="25" fill="skyblue"/>
+      </svg>
+    </td>
+    <td class="grayscale">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+        <circle cx="32" cy="32" r="25" fill="skyblue"/>
+      </svg>
+    </td>
+  </tr>
+  
+  <tr>
+  <td class="original">
+    <img src="https://www.svgrepo.com/show/530644/calculator.svg" width="100" height="100">
+  </td>
+  <td class="mirror">
+    <img src="https://www.svgrepo.com/show/530644/calculator.svg" width="100" height="100">
+  </td>
+  <td class="rotate180">
+    <img src="https://www.svgrepo.com/show/530644/calculator.svg" width="100" height="100">
+  </td>
+  <td class="squeeze">
+    <img src="https://www.svgrepo.com/show/530644/calculator.svg" width="100" height="100">
+  </td>
+  <td class="grayscale">
+    <img src="https://www.svgrepo.com/show/530644/calculator.svg" width="100" height="100">
+  </td>
+</tr>
+ 
+  <tr>
+  <td class="original">
+    <img src="https://www.svgrepo.com/show/503853/weather.svg" width="100" height="100">
+  </td>
+  <td class="mirror">
+    <img src="https://www.svgrepo.com/show/503853/weather.svg" width="100" height="100">
+  </td>
+  <td class="rotate180">
+    <img src="https://www.svgrepo.com/show/503853/weather.svg" width="100" height="100">
+  </td>
+  <td class="squeeze">
+    <img src="https://www.svgrepo.com/show/503853/weather.svg" width="100" height="100">
+  </td>
+  <td class="grayscale">
+    <img src="https://www.svgrepo.com/show/503853/weather.svg" width="100" height="100">
+  </td>
+</tr>
+  
+    <tr>
+  <td class="original">
+    <img src="https://www.svgrepo.com/show/508319/thunder.svg" width="100" height="100">
+  </td>
+  <td class="mirror">
+    <img src="https://www.svgrepo.com/show/508319/thunder.svg" width="100" height="100">
+  </td>
+  <td class="rotate180">
+    <img src="https://www.svgrepo.com/show/508319/thunder.svg" width="100" height="100">
+  </td>
+  <td class="squeeze">
+    <img src="https://www.svgrepo.com/show/508319/thunder.svg" width="100" height="100">
+  </td>
+  <td class="grayscale">
+    <img src="https://www.svgrepo.com/show/508319/thunder.svg" width="100" height="100">
+  </td>
+</tr>
+    
+      <tr>
+  <td class="original">
+    <img src="https://www.svgrepo.com/show/252489/weather-rain.svg" width="100" height="100">
+  </td>
+  <td class="mirror">
+    <img src="https://www.svgrepo.com/show/252489/weather-rain.svg" width="100" height="100">
+  </td>
+  <td class="rotate180">
+    <img src="https://www.svgrepo.com/show/252489/weather-rain.svg" width="100" height="100">
+  </td>
+  <td class="squeeze">
+    <img src="https://www.svgrepo.com/show/252489/weather-rain.svg" width="100" height="100">
+  </td>
+  <td class="grayscale">
+    <img src="https://www.svgrepo.com/show/252489/weather-rain.svg" width="100" height="100">
+  </td>
+</tr>
+  
+        <tr>
+  <td class="original">
+    <img src="https://www.svgrepo.com/show/484694/thermometer.svg" width="100" height="100">
+  </td>
+  <td class="mirror">
+    <img src="https://www.svgrepo.com/show/484694/thermometer.svg" width="100" height="100">
+  </td>
+  <td class="rotate180">
+    <img src="https://www.svgrepo.com/show/484694/thermometer.svg" width="100" height="100">
+  </td>
+  <td class="squeeze">
+    <img src="https://www.svgrepo.com/show/484694/thermometer.svg" width="100" height="100">
+  </td>
+  <td class="grayscale">
+    <img src="https://www.svgrepo.com/show/484694/thermometer.svg" width="100" height="100">
+  </td>
+</tr>
+  
+       <tr>
+  <td class="original">
+    <img src="https://www.svgrepo.com/show/468604/dome.svg" width="100" height="100">
+  </td>
+  <td class="mirror">
+    <img src="https://www.svgrepo.com/show/468604/dome.svg" width="100" height="100">
+  </td>
+  <td class="rotate180">
+    <img src="https://www.svgrepo.com/show/468604/dome.svg" width="100" height="100">
+  </td>
+  <td class="squeeze">
+    <img src="https://www.svgrepo.com/show/468604/dome.svg" width="100" height="100">
+  </td>
+  <td class="grayscale">
+    <img src="https://www.svgrepo.com/show/468604/dome.svg" width="100" height="100">
+  </td>
+</tr>
+  
+         <tr>
+  <td class="original">
+    <img src="https://www.svgrepo.com/show/492822/thermometer.svg" width="100" height="100">
+  </td>
+  <td class="mirror">
+    <img src="https://www.svgrepo.com/show/492822/thermometer.svg" width="100" height="100">
+  </td>
+  <td class="rotate180">
+    <img src="https://www.svgrepo.com/show/492822/thermometer.svg" width="100" height="100">
+  </td>
+  <td class="squeeze">
+    <img src="https://www.svgrepo.com/show/492822/thermometer.svg" width="100" height="100">
+  </td>
+  <td class="grayscale">
+    <img src="https://www.svgrepo.com/show/492822/thermometer.svg" width="100" height="100">
+  </td>
+</tr>
+  
+           <tr>
+  <td class="original">
+    <img src="https://www.svgrepo.com/show/461689/hurricane.svg" width="100" height="100">
+  </td>
+  <td class="mirror">
+    <img src="https://www.svgrepo.com/show/461689/hurricane.svg" width="100" height="100">
+  </td>
+  <td class="rotate180">
+    <img src="https://www.svgrepo.com/show/461689/hurricane.svg" width="100" height="100">
+  </td>
+  <td class="squeeze">
+    <img src="https://www.svgrepo.com/show/461689/hurricane.svg" width="100" height="100">
+  </td>
+  <td class="grayscale">
+    <img src="https://www.svgrepo.com/show/461689/hurricane.svg" width="100" height="100">
+  </td>
+</tr>
+  
+
+ 
+</table>
+
+</body>
+</html>
